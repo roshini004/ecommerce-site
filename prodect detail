@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <title>All Products -The kracky kraftswomen</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class ="container">
+      <div class="navbar">
+        <div class="logo">
+            <img src="C:\Users\Roshini\Downloads\The_kracky_kraftwomen-removebg-preview.png" width="125px">
+        </div>
+        <nav>
+            <ul Id ="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src= "C:\Users\Roshini\OneDrive\Desktop\images\cart.png"width="30px" height="30px">
+        <img src="C:\Users\Roshini\OneDrive\Desktop\images\menu.png" class="Menu-icon"
+        onclick="menutoggle()">
+       </div>
+    </div>
+    <!--------------single product details------------------>
+    <div class="small-container single-product">
+    	<div class="row">
+    		<div class="col-2">
+    			<img src="C:\Users\Roshini\OneDrive\Desktop\the kracky kraftswomen\hoodies.jpg" width="100%">
+
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="C:\Users\Roshini\OneDrive\Desktop\the kracky kraftswomen\hoodies33.jpg" width="100%">
+                </div>
+                <div class="small-img-col">
+                    <img src="C:\Users\Roshini\OneDrive\Desktop\the kracky kraftswomen\hoodies44.jpg" width="100%">
+                </div>
+                <div class="small-img-col">
+                    <img src="C:\Users\Roshini\OneDrive\Desktop\the kracky kraftswomen\hoodies00.jpg" width="100%">
+                </div>
+                <div class="small-img-col">
+                    <img src= "C:\Users\Roshini\OneDrive\Desktop\the kracky kraftswomen\hoodies11.jpg"width="100%">
+                </div>
+            </div>
+    		<div class="col-2">
+    			<p>home/hoodies</p>
+    			<h1>besties hoodie set by k&k</h1>
+    			<h4>₹700</h4>
+    			<select>
+    				<option>select size for 1</option>
+    				<option>xxl</option>
+    				<option>xl</option>
+    				<option>large</option>
+    				<option>medium</option>
+    				<option>smalll</option>
+    			</select>
+    			<select>
+    				<option>select size for 2</option>
+    				<option>xxl</option>
+    				<option>xl</option>
+    				<option>large</option>
+    				<option>medium</option>
+    				<option>smalll</option>
+    			</select>
+    			<input type="number" min="1" value="1">
+    			<a href="" class="btn">Add to cart</a>
+    			<h3>Product details <i class="fa fa-indent"></i></h3>
+                <br>
+    			<p>get you and your bestie an comfy and style upgrade hoodies form K&K women
+    			match it up with pair of jeans or pajamas for your daily routine and as 
+    		    your stay home outfit</p>
+
+    			</div>
+    	</div>
+    </div>
+
+
+
+
+
+
+
+    <!---------------products----------------->
+    <div class="small-container">
+        <div class="row row-2">
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="C:\Users\Roshini\Downloads\tiedye-removebg-preview.png">
+                <h4> multi-color tiedye t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>                
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+            <div class="col-4">
+                <img src="C:\Users\Roshini\Downloads\tiedye-removebg-preview.png">
+                <h4> multi-color tiedye t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>                
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+            <div class="col-4">
+                <img src="C:\Users\Roshini\Downloads\tiedye-removebg-preview.png">
+                <h4> multi-color tiedye t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>                
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+            <div class="col-4">
+                <img src="C:\Users\Roshini\Downloads\tiedye-removebg-preview.png">
+                <h4>multi-color tiedye t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>                
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+        </div>
+        </div>  
+     </div>
+    <!----------------------footer----------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>contact us</h3>
+                    <p>e-mail id: abcd@gmail.com <br> phone-no: 9789023520</p>
+                    </div>
+                <div class="footer-col-2">
+                    <img src="C:\Users\Roshini\Downloads\ohhhh__1_-removebg-preview.png">
+                    <p>Our purpose is to intimate your love to your loved ones through our handmade happiness</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>follow us</h3>
+                    <ul>
+                        <li>instagram</li>
+                        <li>facebook</li>
+                        <li>twitter</li>
+                    </ul>
+                </div>
+                    <div class="footer-col-4">
+                        <h3>help&FAQ</h3>
+                        <ul>
+                            <li>online order</li>
+                            <li>return policy</li>
+                            <li>payment & billing</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright"> --------copyright 2022 - Roshini padmanathan------</p>
+            </div>
+        </div> 
+<!----------js for toogle menu-------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px")
+             {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+</body>
+</html>
+
